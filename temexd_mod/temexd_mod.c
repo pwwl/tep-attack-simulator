@@ -245,7 +245,7 @@ Inputs (12 manipulated variables + 28 disturbance flags)
   8     |Valve position underflow stripper (stream 11)            
   9     |Valve position stripper steam                            
   10    |Valve position cooling water outlet of reactor           
-  11    |Valve position cooling water outlet of separator         
+  11    |Valve position cooling water outlet of condenser         
   12    |Rotation of agitator of reactor                          
 
   Number|Type       |Disturbed Value
@@ -3092,7 +3092,7 @@ static int tefunc(void *ModelData,
       (*tcModelData).pv_.xmeasadd[7] = (*tcModelData).teproc_.fws * 
                  (float)0.003785411784 * (float)60.;
     } //if((*ModelData).MSFlag & 0x1) == 1){
-
+    
     /*Checking of Shut-Down-Constraints*/
     *isd = (float)0.;
     if ((*tcModelData).pv_.xmeas[6] > (float)3e3){
