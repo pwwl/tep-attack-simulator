@@ -8,7 +8,7 @@ This simulator is heavily based on two prior iterations, which may serve as usef
 This simulator contains modifications to the original MATLAB implementation, which allows the user to inject manipulations into the TE process, and observe/record their impacts.
 
 ### Dependencies
-Like the original TEP implementation, our simulator depends on MATLAB.  
+Like the original TEP implementation, our simulator is built in MATLAB Simulink.  
 For our experiments, we use [MATLAB R2021a](https://www.mathworks.com/products/new_products/release2021a.html).
 
 ### Step-by-step demo instructions
