@@ -1,5 +1,5 @@
 
-temexd_mod/**.mat
-temexd_mod/**.xml
-temexd_mod/**.slxc
-temexd_mod/slprj
+**/*.mat
+**/*.xml
+**/*.slxc
+**/slprj
