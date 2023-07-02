@@ -8,12 +8,12 @@
 The default configuration of the environment will show the system in a benign state.
 | Benign Simulator State |
 |---|
-|![image](demo-imgs/simulator_benign_state.png)|
+|![image](demo-imgs/simulator_benign.png)|
 
 To execute an attack, modify the Simulink arrows such that the inputs or outputs of the `temexd_mod` process pass through one of the attack controllers.
 | Attacking sensors | Attacking XMVs (actuators) |
 | --- | --- |
-|![image](demo-imgs/simulator_attack_state.png)|![image](demo-imgs/simulator_attack_state.png)|
+|![image](demo-imgs/simulator_attack_xmeas.png)|![image](demo-imgs/simulator_attack_xmv.png)|
 
 Double click the attack controller to configure how the attack is performed. Our demo uses the `Generic Attack Controller XMeas` to manipulate a sensor value.  
 To modify which feature is attacked, modify the `Pick Attack Feat`, `Pick !Attack Feat`, and `Maintain Order` modules to select the desired feature from the input.
@@ -42,7 +42,7 @@ Use the dropdown menu to select different sensors and actuators (MVs).
 
 To save the simulation outputs to a readable format, we use the following Matlab commands to save the simulation sensors and acuators:
 ```
-csvwrite('example_simout.csv', simout)
-csvwrite('example_xmv.csv', xmv)
+csvwrite('simout_example.csv', simout)
+csvwrite('xmv_example.csv', xmv)
 ```
 
