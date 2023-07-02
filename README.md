@@ -13,4 +13,9 @@ For our experiments, we use [MATLAB R2021a](https://www.mathworks.com/products/n
 
 ### Step-by-step demo instructions
 
-A full set of instructions, with screenshots, can be found in [the demo instructions](demo-instructions.md).
+A full set of instructions, with screenshots, can be found in [the demo instructions](demo-instructions.md).  
+The final outcomes of the demo are shown below.
+
+| Benign simulation result | Attack simulation result (manipulating D Feed sensor) |
+| --- | --- |
+|![image](demo-imgs/benign_simulation_result.png)|![image](demo-imgs/attack_simulation_result.png)|
