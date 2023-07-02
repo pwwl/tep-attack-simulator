@@ -46,3 +46,5 @@ csvwrite('simout_example.csv', simout)
 csvwrite('xmv_example.csv', xmv)
 ```
 
+Each output can be processed with the following [helper script](process_matlab_TEP.py) to create a easily-readable format for ML models.
+
