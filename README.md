@@ -9,16 +9,8 @@ This simulator contains modifications to the original MATLAB implementation, whi
 
 ### Dependencies
 Like the original TEP implementation, our simulator depends on MATLAB.  
-For our experiments, we use [MATLAB R2021a](https://www.mathworks.com/products/new_products/release2021a.html)
+For our experiments, we use [MATLAB R2021a](https://www.mathworks.com/products/new_products/release2021a.html).
 
 ### Step-by-step demo instructions
 
-#### Opening the environment
-1. After cloning this repository, load MATLAB, and set the MATLAB workspace to `temexd_mod`.
-2. Initialize the environment by executing `Mode_1_Init.m`.
-3. Open the Simulink environment: `MultiLoop_mode1.mdl`.
-
-#### Configuring the environment
-TODO.
-
-
+A full set of instructions, with screenshots, can be found in [the demo instructions](demo-instructions.md).
