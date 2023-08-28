@@ -1,11 +1,26 @@
 ## TEP Attack Simulator
 
-This repository contains files to run the Tennesee Eastman Process (TEP) -- an ICS simulator.  
+This repository contains files to run a manipulated version of the Tennesee Eastman Process (TEP) -- an ICS simulator.  
 This simulator is heavily based on two prior iterations, which may serve as useful references:
 - [Tennesee Eastman MATLAB implementation (2015)](https://depts.washington.edu/control/LARRY/TE/download.html)
 - [DVCP-TE (2015)](https://github.com/satejnik/DVCP-TE)
 
 This simulator contains modifications to the original MATLAB implementation, which allows the user to inject manipulations into the TE process, and observe/record their impacts.
+
+The outputs of this simulator are used in the paper: "Attributions for ML-based ICS anomaly detection: From theory to practice", 
+to appear at the 31st Network and Distributed System Security Symposium (NDSS 2024).
+
+### Bibtex
+
+```
+@inproceedings{icsanomaly:ndss2024,
+  title = {Attributions for {ML}-based {ICS} Anomaly Detection: {From} Theory to Practice},
+  author = {Clement Fung and Eric Zeng and Lujo Bauer},
+  booktitle = {Proceedings of the 31st Network and Distributed System Security Symposium},
+  publisher = {Internet Society},
+  year = 2024,
+}  
+```
 
 ### Dependencies
 Like the original TEP implementation, our simulator is built in MATLAB Simulink.  
