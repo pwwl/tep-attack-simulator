@@ -36,4 +36,4 @@ The final outcomes of the demo are shown below.
 
 ### Access to the complete dataset
 As described in our paper, we use the simulator to execute each attack condition (location, magnitude, pattern) in the TE process.  
-The full set of 286 manipulations is [available on Google Drive](https://drive.google.com/file/d/1h9rYcuU6VLGS2vl5o5jDkrAz5HuSDe1F/view?usp=sharing).  
+The full set of 286 manipulations can be found here: [https://doi.org/10.1184/R1/23805552](https://doi.org/10.1184/R1/23805552).
