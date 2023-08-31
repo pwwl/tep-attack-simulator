@@ -12,6 +12,8 @@ to appear at the 31st Network and Distributed System Security Symposium (NDSS 20
 
 ### Bibtex
 
+[![DOI](https://zenodo.org/badge/661335861.svg)](https://zenodo.org/badge/latestdoi/661335861)
+
 ```
 @inproceedings{icsanomaly:ndss2024,
   title = {Attributions for {ML}-based {ICS} Anomaly Detection: {From} Theory to Practice},
